@@ -1,6 +1,7 @@
 # Queue Simulation Project
 
-Overview
+Overview:
+
 This project implements a discrete-event simulation of a customer service queue system using SimPy. The simulation models different queueing strategies and incorporates reneging, where customers may leave the queue if their issue is not resolved in time.
 
 The goal of this project is to study how different queue types handle customer service interactions and evaluate their efficiency in both randomized and LLM-simulated service time scenarios.
@@ -14,7 +15,8 @@ Each queue type supports reneging, where customers leave if they exceed a random
 RNG Mode: A uniform distribution between 1.5 and 2.5 minutes.
 LLM Mode: A stub function simulates LLM response processing time. (LLM functionality not yet implemented)
 
-Installation
+Installation:
+
 To run the simulation, install Python and the required dependencies:
 
 ```bash
