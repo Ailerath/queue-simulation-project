@@ -20,4 +20,4 @@ Installation:
 To run the simulation, install Python and the required dependencies:
 
 ```bash
-pip install simpy numpy
+pip install simpy numpy pandas requests

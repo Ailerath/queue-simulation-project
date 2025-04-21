@@ -1,0 +1,10 @@
+scenario,queue,arrival_rate,service_duration,num_agents,avg_wait,served,reneged
+Baseline,FIFO,1.0,2.0,2,0.8101209411423256,46,4
+Baseline,Priority,1.0,2.0,2,0.9743540021976181,47,3
+Baseline,Random,1.0,2.0,2,1.4424532993771617,45,5
+Optimistic,FIFO,0.8,1.8,3,0.09407170784334178,46,4
+Optimistic,Priority,0.8,1.8,3,0.1894547002693321,47,3
+Optimistic,Random,0.8,1.8,3,0.3200560393900735,46,4
+Pessimistic,FIFO,1.3,2.2,1,12.652993738351709,33,17
+Pessimistic,Priority,1.3,2.2,1,18.075883851637737,37,13
+Pessimistic,Random,1.3,2.2,1,26.044676733477846,38,12
